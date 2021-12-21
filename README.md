@@ -76,10 +76,14 @@ One limitation of the dataset is the lack of available information on the donati
 
 - What are some other possible tables and/or graphs that we could create?
 
-One additional plot that would be useful is a stacked percentage bar plot based on the goal value ranges (Figure 3). This chart would illustrate the overall number of campaigns within a given goal range and the percentage of them that were successful. If the probability of success was high along with the total number of campaigns within that range, then would could confidently assert a higher probability of success. This would prevent from any recommendations based on the success of only a few campaigns from influencing decisions.  
+One additional plot that would be useful is a stacked percentage bar plot based on the goal value ranges (Figure 3). This chart would illustrate the overall number of campaigns within a given goal range and the percentage of them that were successful. If the probability of success was high along with the total number of campaigns within that range, then would could confidently assert a higher probability of success. This would prevent from any recommendations based on the success of only a few campaigns from influencing decisions. Another additional plot that I find more useful than the line plot with the binned goal amounts would be a simple percentage bar chart (Figure 4). The line plot implies continuity between bins and I personally find it harder to interpret. The percentage bar plot is easier to see which bars have a higher successful percentage and recomendations can more more readily attained.
 
 **Figure 3.**
-![Outcomes based on goal](./Resources/Number_of__Outcomes_vs_Goal.png)
+![Outcomes based on goal - Stacked histogram](./Resources/Number_of__Outcomes_vs_Goal.png)
+
+**Figure 4. Percentage bar chart of outcomes based on goal amount ranges**
+![Outcomes based on goal - percentage bar chart](./Resources/Outcomes_vs_Goal_PercentBar.png)
+
 
 
 
